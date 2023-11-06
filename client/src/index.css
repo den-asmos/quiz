@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-mint: #befce2;
+  --color-green: #50cc7c;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tick {
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--color-mint);
+}
